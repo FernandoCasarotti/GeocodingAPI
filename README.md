@@ -1,5 +1,7 @@
 # Spatiotemporal Geocoding for Historical Data
 
+$coverage$
+
 
 ## Authors
 
