@@ -588,6 +588,7 @@ function returnStreets() {
     return streets;
 }
 
+require('isomorphic-fetch');
 const index = require('../routes/index');
 
 jest.mock('pg', ()=> {

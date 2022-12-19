@@ -1,6 +1,6 @@
 # Spatiotemporal Geocoding for Historical Data
 
-$coverage$
+![](https://img.shields.io/badge/Coverage-70%25-5A7302.svg?prefix=$coverage$)
 
 
 ## Authors

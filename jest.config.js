@@ -4,4 +4,5 @@ module.exports = {
     coverageDirectory: "coverage",
     coverageProvider: "v8",
     testEnvironment: "node",
+    coverageReporters: ['json','json-summary']
 };

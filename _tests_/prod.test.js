@@ -1,10 +1,8 @@
-const https = require('request');
 const request = require("request");
-const index = require("../routes");
+require('isomorphic-fetch');
 const url = 'http://www.pauliceia.dpi.inpe.br/api/geocoding';
 
 async function requestPlacesStreetsList(service) {
-    console.log(url + service);
     return await new Promise((resolve, reject) => {
         request(url + service, function (error, response, body) {
             if (error) {
@@ -20,7 +18,7 @@ async function requestPlacesStreetsList(service) {
 console.log('Production Test Suite');
 
 console.log('Geocoding');
-
+/*
 test('26. Placeslist', async () => {
     const result = await requestPlacesStreetsList('/placeslist');
     expect(result).toBe('');
@@ -168,3 +166,4 @@ test('50. Place that exist in the year logged', async () => {
     const result = await requestPlacesStreetsList('/geolocation/'+req+'/json');
     expect(result[1][0].status).toBe(1);
 })
+*/
